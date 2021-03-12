@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+</head>
+
+<body>
+    <img src="logo.png" height="100" width="100">
+    <h4>Học viện đào tạo công nghệ</h4>
+    <a href="about.html">Giới thiệu trung tâm</a><br>
+    <a href="register.html">Đăng ký học tập </a>
+    <hr>
+    <h1>PlusPlus Academy</h1>
+    <p>PlusPlus Academy tập trung mạnh đào tạo lập trình học máy(AI, Machine Learning), Web front end, back end(Java
+        Spring), di động(iOS,React Native,Android), và phân tích dữ liệu với Python</p>
+    <h2>Đăng ký khoá học của trung tâm</h2>
+    <fieldset>
+        <legend>Đăng ký khoá học</legend>
+        <form action="https://www.w3schools.com/action_page.php">
+            <label for="hoten">Họ và tên</label>
+            <input type="text" id="hoten" name="username" required><br><br>
+            <label for="password">Mật khẩu</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <label for="age">Tuổi</label>
+            <input type="text" id="age" name="age" required><br><br>
+            <b>Giới tính:</b>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br><br>
+            <label for="birthday">Ngày sinh</label>
+            <input type="date" id="birthday" name="birthday" required><br><br>
+            <label for="email">Địa chỉ Email</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="sources">Danh sách khoá học</label>
+            <select id="sources" name="source" required>
+                <option value="frontend">Khoá học Frontend</option>
+                <option value="java">Khoá học Java</option>
+                <option value="python">Khoá học Python</option>
+            </select>
+            <!-- </form> -->
+    </fieldset>
+    <hr>
+    <h2>Bạn biết trung tâm tôi từ đâu?</h2>
+    <!-- <form action="https://www.w3schools.com/action_page.php"> -->
+    <input type="checkbox" id="reason1" name="reason1" value="friends">
+    <label for="reason1">Qua bạn bè</label><br>
+    <input type="checkbox" id="reason2" name="reason2" value="facebook">
+    <label for="reason2">Qua Facebook</label><br>
+    <input type="checkbox" id="reason3" name="reason3" value="counselor">
+    <label for="reason3">Qua nhân viên tư vấn</label>
+    <!-- </form> -->
+    <hr>
+    <h2>Đánh giá trung tâm</h2>
+    <p>Đánh giá</p>
+    <!-- <form action="https://www.w3schools.com/action_page.php"> -->
+    <textarea name="rate" rows="10" cols="40"></textarea>
+    <br>
+    <br>
+    <div style="display: flex;flex-direction: row;justify-content: center;"><input type="submit" style="color:red;margin-right: 50px;height: 40px;width: 70px;font-family: 'Times New Roman', Times, serif;"></div>
+
+
+    </form>
+    <hr>
+    <img src="logo.png" width="100" height="100">
+    <p>Số 11 Phạm Ngọc Thạch Hà Nội</p>
+
+</body>
+
+</html>
