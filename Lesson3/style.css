@@ -1,0 +1,25 @@
+ header,footer{
+     padding-top: 20px;
+     padding-bottom: 10px;
+     padding-left: 100px;
+     background-color: dodgerblue;
+ }
+ footer img{
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+ }
+ header img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+ }
+ .main{
+     padding-left: 100px;
+     padding-bottom:30px ;
+ }
+ .main .main-form{
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 10px;
+ }
